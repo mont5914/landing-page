@@ -1,0 +1,133 @@
+html {
+    -webkit-font-smoothing: antialiased;
+   
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h3 {
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+
+}
+
+.top-navigation {
+	background-color:#fff;
+	width:100%;
+    position: fixed;
+    
+}
+
+.top-navigation > .content {
+   height:2rem; 
+}
+
+.links {
+    display:inline-block;
+}
+
+.top-navigation .links {
+    float: right;
+    font-family: 'Roboto', sans-serif;
+    color: #838994;
+    font-size: 16px;
+    margin-top: 25px;
+    -webkit-font-smoothing: antialiased; 
+}
+
+.top-navigation .links li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.top-navigation .links > .active {
+    color: green;
+    font-weight: 500;
+}
+
+.top-navigation .links li:hover {
+    cursor: pointer;
+    color: #333333;
+
+}
+
+
+.logo {
+	margin-top: .05em;
+	margin-bottom: .05em;
+    margin-right: 10em;
+}
+
+.top-navigation .links {
+	float: right;
+    color: #838994;
+    font-size: 1.04rem;
+    margin-top: 1.7rem;
+}
+
+
+.content {
+    padding: 0px 4px;
+    box-sizing: border-box;
+    width: 66rem;
+    margin: 0 auto;
+}
+
+.introduction {
+    background-image: url('http://i.imgur.com/sZOBB74.jpg');
+    background-repeat: no-repeat;
+    background-position: 0 bottom;
+    background-size: cover;
+    height: 52rem;
+    overflow:auto;
+}
+
+.headline {
+  
+}
+.introduction h1 {
+    width: 66rem;
+    color: green;
+    margin-left: -2.5rem;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3.125rem;
+    margin-top: 7rem;
+    padding: 0;
+    margin-bottom: 0;
+    text-align: center;
+    
+    
+}
+
+
+.introduction h3 {
+    color: green;
+    margin-left: 10.5rem;
+    font-weight: 300;
+    width: 723px;
+    margin-top: 7px;
+    margin-bottom: 18px;
+}
+
+
+
+button {
+    text-shadow: none;
+    border-style: none;
+    border-radius: 23px;
+    padding: 1rem 1.5rem;
+    width: 9.688rem;
+    font-size: 1.125rem;
+    color:#FFF;
+    background-color: green;
+    margin-left: 23rem;
+
+}
+
+button:hover {
+    cursor: pointer;
+    color: #333333;
+
+}
