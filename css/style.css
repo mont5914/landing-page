@@ -12,10 +12,13 @@ body, h3 {
 
 }
 
+/*------------Start of Navigation-------------*/
+
 .top-navigation {
 	background-color:#fff;
 	width:100%;
     position: fixed;
+    z-index: 9999;
     
 }
 
@@ -54,7 +57,7 @@ body, h3 {
 
 
 .logo {
-	margin-top: .05em;
+	margin-top: 1.05em;
 	margin-bottom: .05em;
     margin-right: 10em;
 }
@@ -74,14 +77,17 @@ body, h3 {
     margin: 0 auto;
 }
 
+/*------------End of Navigation-------------*/
+
+/*------------Start of Cover Image-------------*/
 .introduction {
-    background-image: url('http://i.imgur.com/sZOBB74.jpg');
+    background-image: url('http://i.imgur.com/qCEfX9K.jpg');
     background-repeat: no-repeat;
     background-position: 0 bottom;
     background-size: cover;
     height: 52rem;
     overflow:auto;
-}
+} /* show laura this layout by taking out the background-position: 0 bottom; */
 
 .headline {
   
@@ -89,7 +95,7 @@ body, h3 {
 .introduction h1 {
     width: 66rem;
     color: green;
-    margin-left: -2.5rem;
+    margin-left: -18.5rem;
     font-weight: 400;
     font-family: 'Roboto', sans-serif;
     font-size: 3.125rem;
@@ -103,12 +109,12 @@ body, h3 {
 
 
 .introduction h3 {
-    color: green;
-    margin-left: 10.5rem;
+    color: #4CAF50;
+    margin-left: 34rem;
     font-weight: 300;
-    width: 723px;
     margin-top: 7px;
     margin-bottom: 18px;
+    font-size: 1rem;
 }
 
 
@@ -118,11 +124,11 @@ button {
     border-style: none;
     border-radius: 23px;
     padding: 1rem 1.5rem;
-    width: 9.688rem;
-    font-size: 1.125rem;
-    color:#FFF;
-    background-color: green;
-    margin-left: 23rem;
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: red;
+    margin-left: 46rem;   
+    margin-top: 1rem; 
 
 }
 
@@ -131,3 +137,76 @@ button:hover {
     color: #333333;
 
 }
+
+/*------------End of Cover Image-------------*/
+
+/*------------Start of Middle Section-------------*/
+
+.cases {
+margin-bottom: 6rem;
+}
+
+.content1 {
+    text-align: center;
+    margin-top: 3rem;
+    font-family: 'Roboto', sans-serif;
+    color: #4CAF50;
+    font-size: 18px;
+    -webkit-font-smoothing: antialiased;
+
+}
+
+ .cases .devices li {
+    display: inline-block;
+    float:right;
+    font-family: 'Roboto', sans-serif;
+    color: #4CAF50;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    width: 33.33%;
+    margin-top:3rem;
+    
+}
+
+
+
+/*------------End of Middle Section-------------*/
+
+/*------------Start of Footer-------------*/
+
+.social {
+    text-align: center;
+    display:inline-block;
+    width: 100%;
+    height:10rem; 
+    font-color: #4CAF50;
+    background-size: 800px 1000px;
+    overflow:auto;
+    margin-top: 12rem;
+    background-repeat: no-repeat;
+    background-color: #ededed;
+    
+}
+
+
+.footer {
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color:#4CAF50;
+    
+}
+
+ .social .icons li {
+    display:inline-block;
+    font-family: 'Roboto', sans-serif;
+    color: #4CAF50;
+    -webkit-font-smoothing: antialiased;
+
+}
+
+.icons {
+    padding: 0;
+}
+
+
+
